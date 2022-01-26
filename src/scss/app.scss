@@ -20,6 +20,5 @@
 /* Components */
 
 /* Browser specific styles */
-@import "dirty/hacks";
-
-@import "./header";
+@import "header.scss";
+@import "container.scss";
