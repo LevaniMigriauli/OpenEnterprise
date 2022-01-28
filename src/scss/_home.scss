@@ -1,3 +1,60 @@
 .home {
   display: flex;
+  gap: 0;
+}
+
+.home-left-half {
+  //   flex-basis: auto;
+  flex-basis: 608px;
+  flex-shrink: 0;
+}
+
+.home-heading {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 400;
+  font-family: "Bely Display";
+  color: #303031;
+  //   letter-spacing: -2%;  Doesn't work
+  margin-top: 191px;
+  margin-bottom: 24px;
+}
+
+.home-paragraph {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  font-variant: none;
+  //   letter-spacing: -2%;  Doesn't work
+  margin-bottom: 40px;
+}
+
+.home-btn {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #71a894;
+  padding: 20px 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.home-ilustration {
+  align-self: stretch;
+  flex-shrink: 0;
+  margin-top: 91px;
+  height: 570px;
+  width: 866px;
+  position: relative;
+  //   position: relative;
+  //   transform: translate(56px);
+}
+
+.home-img {
+  position: absolute;
+  right: 88px;
 }
