@@ -1,0 +1,53 @@
+.hero-section {
+  display: flex;
+  // gap: 0;
+}
+
+.hero-advert {
+  margin-top: 191px;
+  // flex-basis: auto;
+  flex-basis: 608px;
+  //   flex-shrink: 0;
+
+  &__title {
+    font-family: "Bely Display";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 80px;
+    color: $title-color;
+    //   letter-spacing: -2%;  Doesn't work
+    margin-bottom: 24px;
+  }
+
+  &__description {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: $text-color;
+    //   letter-spacing: -2%;  Doesn't work
+    margin-bottom: 40px;
+  }
+
+  .button {
+    color: #fff;
+  }
+}
+
+.hero-illustration {
+  margin-top: 91px;
+  height: 570px;
+  flex-basis: 866px;
+  position: relative;
+  transform: translate(145px);
+
+  &__image {
+    position: absolute;
+    right: 88px;
+  }
+  &__background {
+    // position: absolute;
+  }
+}

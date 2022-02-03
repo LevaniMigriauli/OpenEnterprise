@@ -18,8 +18,9 @@
 /* Vendor */
 
 /* Components */
+@import "commons.scss";
 
 /* Browser specific styles */
 @import "container.scss";
 @import "header.scss";
-@import "home.scss";
+@import "hero.scss";

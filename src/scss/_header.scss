@@ -3,22 +3,22 @@ header {
   justify-content: space-between;
   align-items: center;
   font-family: "Proxima Nova";
-}
 
-nav {
-  display: flex;
-  gap: 40px;
-}
+  nav {
+    display: flex;
+    gap: 40px;
 
-nav a {
-  font-size: 20px;
-  font-weight: 500;
-  color: #303031;
-  line-height: 24.36px;
-  letter-spacing: -2%;
-}
+    a {
+      font-size: 20px;
+      font-weight: 500;
+      color: #303031;
+      line-height: 24.36px;
+      letter-spacing: -2%;
 
-a:last-child {
-  color: #71a894;
-  font-weight: 700;
+      &:last-child {
+        color: #71a894;
+        font-weight: 700;
+      }
+    }
+  }
 }
