@@ -10,3 +10,18 @@
   border: none;
   cursor: pointer;
 }
+
+.secondary-title {
+  font-family: "Bely Display", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  color: $title-color;
+}
+
+.description {
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  line-height: 26px;
+  color: $text-color;
+}

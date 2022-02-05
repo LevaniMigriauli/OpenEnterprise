@@ -1,18 +1,16 @@
 .hero-section {
   display: flex;
-  // gap: 0;
+  margin-bottom: 325px;
 }
 
 .hero-advert {
   margin-top: 191px;
-  // flex-basis: auto;
   flex-basis: 608px;
-  //   flex-shrink: 0;
+  flex-shrink: 0;
 
   &__title {
-    font-family: "Bely Display";
+    font-family: "Bely Display", sans-serif;
     font-weight: normal;
-    font-style: normal;
     font-size: 64px;
     line-height: 80px;
     color: $title-color;
