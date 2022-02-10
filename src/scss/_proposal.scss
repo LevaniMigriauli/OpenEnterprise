@@ -1,0 +1,90 @@
+.proposal-section {
+  display: flex;
+  gap: 178px;
+  margin-bottom: 160px;
+
+  .proposal-card {
+    flex: 0 0 484px;
+
+    border: 2px black solid;
+    border-radius: 16px;
+
+    padding: 32px 40px;
+
+    letter-spacing: 0.05em;
+
+    &__header {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    &__title {
+      font-family: "Novel Mono Pro", sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      align-self: center;
+
+      h3 {
+        margin-bottom: 8px;
+      }
+
+      p {
+        font-size: 16px;
+        font-weight: 900;
+      }
+    }
+
+    &__description {
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 24px;
+      line-height: 24px;
+      //   letter-spacing: -0.02em;
+    }
+
+    .proposal-card__details {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 12px;
+
+      margin-bottom: 32px;
+
+      h4 {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+
+      span {
+        font-size: 24px;
+      }
+    }
+
+    &__button--black {
+      font-size: 24px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      background-color: $button-background-color-black;
+      padding: 12px 132px;
+
+      border-radius: 16px;
+    }
+  }
+
+  .proposal-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex: 1 1 auto;
+
+    img {
+      display: block;
+      margin-top: 39px;
+      width: 80px;
+      height: 80px;
+    }
+
+    h2 {
+    }
+  }
+}
