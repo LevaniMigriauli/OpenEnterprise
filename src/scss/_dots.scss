@@ -1,0 +1,10 @@
+.dots {
+  display: grid;
+
+  margin-bottom: 44px;
+  .dot {
+    height: 6px;
+    width: 6px;
+    background-color: #f3f0ea;
+  }
+}

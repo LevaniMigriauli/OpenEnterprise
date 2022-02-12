@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  .footer_navigation {
+    display: flex;
+    gap: 40px;
+
+    a {
+      font-size: 20px;
+      font-family: "Proxima Nova", sans-serif;
+      color: $text-color;
+      font-weight: 500;
+    }
+
+    a:last-child {
+      font-size: 20px;
+      font-weight: 500;
+      color: #71a894;
+      line-height: 24.36px;
+    }
+  }
+}

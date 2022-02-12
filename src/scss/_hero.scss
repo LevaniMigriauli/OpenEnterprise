@@ -33,15 +33,21 @@
 .hero-illustration {
   margin-top: 91px;
   height: 570px;
-  flex-basis: 866px;
+  flex-basis: auto;
   position: relative;
-  transform: translate(145px);
+  // transform: translate(145px);
 
   &__image {
     position: absolute;
-    right: 88px;
+    top: 0;
+    left: -98px;
+    // right: 88px;
+    // z-index: 1;
   }
   &__background {
-    // position: absolute;
+    // z-index: 2;
+    position: absolute;
+    top: -20px;
+    left: 40px;
   }
 }
