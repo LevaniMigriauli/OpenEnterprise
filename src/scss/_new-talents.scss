@@ -17,10 +17,13 @@
     gap: 24px;
 
     position: relative;
+
     .task {
       padding: 24px 24px 28px 24px;
       box-shadow: 0 2px 8px rgba(#000000, 0.1);
       border-radius: 16px;
+
+      margin-bottom: 48px;
       .task__title {
         font-size: 18px;
         margin-bottom: 16px;
@@ -53,7 +56,7 @@
       position: absolute;
       bottom: 0;
       left: 50%;
-      transform: translate(-50%, 172px);
+      transform: translate(-50%, 72px);
     }
   }
 }
